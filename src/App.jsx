@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:3001";
+const API = "https://task-manager-backend-ogmi.onrender.com";
+
 
 function App() {
   const [tasks, setTasks] = useState([]);
